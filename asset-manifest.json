@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.b67d05cc.css",
+    "main.js": "/react-deploy/static/js/main.04e3bc1a.js",
+    "static/js/787.ba1b9cb1.chunk.js": "/react-deploy/static/js/787.ba1b9cb1.chunk.js",
+    "static/media/epic.jpg": "/react-deploy/static/media/epic.b8005617381a1d03e9f9.jpg",
+    "static/media/meme.jpg": "/react-deploy/static/media/meme.29b04c92ab45fcfdf9d4.jpg",
+    "static/media/me.jpg": "/react-deploy/static/media/me.cb82661c1d8f7ec2b8be.jpg",
+    "static/media/dunder.jpg": "/react-deploy/static/media/dunder.d300cf99c92095d42ec0.jpg",
+    "static/media/fresheries.jpg": "/react-deploy/static/media/fresheries.dd0f5b0cad796eef72c8.jpg",
+    "static/media/financier.jpg": "/react-deploy/static/media/financier.a580a0d21582df9d4df7.jpg",
+    "static/media/jumbo.svg": "/react-deploy/static/media/jumbo.2796fc167ca44da34d8ad4f0b214cf62.svg",
+    "index.html": "/react-deploy/index.html",
+    "main.b67d05cc.css.map": "/react-deploy/static/css/main.b67d05cc.css.map",
+    "main.04e3bc1a.js.map": "/react-deploy/static/js/main.04e3bc1a.js.map",
+    "787.ba1b9cb1.chunk.js.map": "/react-deploy/static/js/787.ba1b9cb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67d05cc.css",
+    "static/js/main.04e3bc1a.js"
+  ]
+}
