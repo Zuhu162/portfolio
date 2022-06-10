@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.jumbo {
+  animation: jumbo 1s ease 0s 1 normal forwards;
+}
+@keyframes jumbo {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.projectImg {
+  transition: all 0.2s ease-in-out;
+}
+.projectImg:hover {
+  box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+}
+
+.projectBtn1 {
+  all: unset;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00beea;
+  border: 1px solid #00beea;
+  margin-right: 10px;
+}
+
+.projectBtn2 {
+  all: unset;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #00beea;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #00beea;
+}
+
+.projectBtn1:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.projectBtn2:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 17px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.jumboText {
+  webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.floater {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: sticky;
+  top: 90%;
+  border-radius: 100px;
+  margin: auto;
+  width: 300px;
+  z-index: 3;
+  height: 50px;
+  padding: 10px;
+
+  animation: floater 1s ease 0s 1 normal forwards;
+}
+
+@keyframes floater {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.floaterIcon {
+  transition: all 0.2s ease-in-out;
+  color: "white";
+}
+
+.floaterIcon:hover {
+  color: "#01BEEA";
+  transition: all 0.2s ease-in-out;
+}
