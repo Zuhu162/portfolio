@@ -97,7 +97,6 @@ function About() {
                 label="Premiere Pro"
               />
             </Stack>
-
             <Typography variant="h6" mt={3}>
               I'm a first year student at the University of Technology Malaysia,
               pursuing my Bachelor of Computer Science (Software Engineering)
@@ -107,6 +106,12 @@ function About() {
               sorts of technologies, that in some way or another ignited my
               passion towards this career.
             </Typography>
+            <a
+              href="https://drive.google.com/file/d/1KLu7GCt9y_AWPdRiC_nEzUC1FaxdqsYB/view"
+              target="_blank"
+            >
+              <button className="projectBtn2">Download Résumé</button>
+            </a>
           </Grid>
         </Grid>
       </Box>
