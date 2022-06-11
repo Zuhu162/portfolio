@@ -29,7 +29,7 @@ const projects = [
     about:
       "A clone of the Epic Games desktop client using ReactJS and MUI. Personally a big fan of the simplistic yet modern look of the Epic Games Store. So, I naturally had to make a clone of it and test my frontend skills at the same time",
     github: "https://github.com/Zuhu162/epicgames-clone",
-    project: "https://eloquent-lamport-dbc1e6.netlify.app/",
+    project: "https://vigorous-montalcini-7eef92.netlify.app",
   },
   {
     type: "FrontEnd",
