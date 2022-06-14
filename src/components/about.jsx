@@ -45,92 +45,65 @@ function About() {
             >
               Learning Forever 🎓
             </Typography>
-            <Box
-              sx={{
-                display: "flex",
-                marginBottom: "10px",
-              }}
-            >
+            <Stack direction="row" spacing={{ sm: 0, md: 1 }} mb={1}>
               <Chip
-                sx={{ color: "black", backgroundColor: "#E6D4FF", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#E6D4FF" }}
                 label="HTML"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#E6D4FF", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#E6D4FF" }}
                 label="CSS"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#E6D4FF", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#E6D4FF" }}
                 label="Javascript"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#E6D4FF", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#E6D4FF" }}
                 label="ReactJS"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#E6D4FF", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#E6D4FF" }}
                 label="Redux"
               />
-            </Box>
-            <Box
-              sx={{
-                display: "flex",
-                marginBottom: "10px",
-              }}
-            >
+            </Stack>
+            <Stack direction="row" spacing={{ xs: 0, md: 1 }} mb={1}>
               <Chip
-                sx={{
-                  color: "black",
-                  backgroundColor: "#DEF0F2",
-                  mr: "5px",
-                }}
+                sx={{ color: "black", backgroundColor: "#DEF0F2" }}
                 label="NodeJS"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#DEF0F2", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#DEF0F2" }}
                 label="MongoDB"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#DEF0F2", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#DEF0F2" }}
                 label="ExpressJS"
               />
               <Chip
-                sx={{ color: "black", backgroundColor: "#DEF0F2", mr: "5px" }}
+                sx={{ color: "black", backgroundColor: "#DEF0F2" }}
                 label="Firebase"
               />
-            </Box>
-            <Box
-              sx={{
-                display: "flex",
-                marginBottom: "10px",
-              }}
-            >
-              <Grid container>
-                <Grid item xs={3.2} md={2}>
-                  <Chip
-                    sx={{
-                      color: "black",
-                      backgroundColor: "#F9FBE6",
-                      mr: "5px",
-                      mb: "10px",
-                    }}
-                    label="Photoshop"
-                  />
-                </Grid>
-                <Chip
-                  sx={{ color: "black", backgroundColor: "#F9FBE6", mr: "5px" }}
-                  label="Illustrator"
-                />
-                <Chip
-                  sx={{ color: "black", backgroundColor: "#F9FBE6", mr: "5px" }}
-                  label="After Effects"
-                />
-                <Chip
-                  sx={{ color: "black", backgroundColor: "#F9FBE6", mr: "5px" }}
-                  label="Premiere Pro"
-                />
-              </Grid>
-            </Box>
+            </Stack>
+            <Stack direction="row" spacing={{ xs: 0, md: 1 }}>
+              <Chip
+                sx={{ color: "black", backgroundColor: "#F9FBE6" }}
+                label="Photoshop"
+              />
+              <Chip
+                sx={{ color: "black", backgroundColor: "#F9FBE6" }}
+                label="Illustrator"
+              />
+              <br />
+              <Chip
+                sx={{ color: "black", backgroundColor: "#F9FBE6" }}
+                label="After Effects"
+              />
+              <Chip
+                sx={{ color: "black", backgroundColor: "#F9FBE6" }}
+                label="Premiere Pro"
+              />
+            </Stack>
             <Typography fontFamily="'Poppins', sans-serif" variant="h6" mt={3}>
               I'm a first year student at the University of Technology Malaysia,
               pursuing my Bachelor of Computer Science (Software Engineering)
