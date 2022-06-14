@@ -37,7 +37,7 @@ function About() {
           </Grid>
           <Grid item xs={12} md={6}>
             <Typography sx={{ mb: 3 }} variant="h5" fontWeight="bold" mt={3}>
-              Learning Forever 🎓
+              🎓 Learning Forever 🎓
             </Typography>
             <Stack direction="row" spacing={{ xs: 0, md: 1 }} mb={1}>
               <Chip
