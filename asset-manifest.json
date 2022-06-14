@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4fb5e96c.css",
-    "main.js": "/portfolio/static/js/main.673bed85.js",
+    "main.css": "/portfolio/static/css/main.6ec4094d.css",
+    "main.js": "/portfolio/static/js/main.dfca9ab0.js",
     "static/js/787.ba1b9cb1.chunk.js": "/portfolio/static/js/787.ba1b9cb1.chunk.js",
     "static/media/meme.jpg": "/portfolio/static/media/meme.29b04c92ab45fcfdf9d4.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.cb82661c1d8f7ec2b8be.jpg",
     "static/media/financier.jpg": "/portfolio/static/media/financier.a580a0d21582df9d4df7.jpg",
+    "static/media/jumbo.png": "/portfolio/static/media/jumbo.a0825b5aa0e4b78201fa.png",
     "static/media/screenshot.png": "/portfolio/static/media/screenshot.da9dcfe6f0470d407fff.png",
     "static/media/financier.png": "/portfolio/static/media/financier.f37092f4968bae2c96c4.png",
     "static/media/fresheries.png": "/portfolio/static/media/fresheries.2dbdbf0a07162a995a82.png",
     "static/media/dunder.png": "/portfolio/static/media/dunder.d58ac1234f7c08873a57.png",
     "static/media/epic.png": "/portfolio/static/media/epic.3726eef251410eb799aa.png",
-    "static/media/jumbo.svg": "/portfolio/static/media/jumbo.2796fc167ca44da34d8ad4f0b214cf62.svg",
     "index.html": "/portfolio/index.html",
-    "main.4fb5e96c.css.map": "/portfolio/static/css/main.4fb5e96c.css.map",
-    "main.673bed85.js.map": "/portfolio/static/js/main.673bed85.js.map",
+    "main.6ec4094d.css.map": "/portfolio/static/css/main.6ec4094d.css.map",
+    "main.dfca9ab0.js.map": "/portfolio/static/js/main.dfca9ab0.js.map",
     "787.ba1b9cb1.chunk.js.map": "/portfolio/static/js/787.ba1b9cb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb5e96c.css",
-    "static/js/main.673bed85.js"
+    "static/css/main.6ec4094d.css",
+    "static/js/main.dfca9ab0.js"
   ]
 }
