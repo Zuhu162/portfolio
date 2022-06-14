@@ -2,7 +2,7 @@
   "name": "portfolioer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Zuhu162.github.io/portfolio",
+  "homepage": "https://zuhu162.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
