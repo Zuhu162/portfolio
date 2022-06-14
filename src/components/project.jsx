@@ -20,7 +20,11 @@ function Project(props) {
         <Grid container spacing={5}>
           <Grid item xs={12} md={6}>
             <Box mb={3}>
-              <Typography variant="p" color="#676A6A">
+              <Typography
+                fontFamily="'Poppins', sans-serif"
+                variant="p"
+                color="#676A6A"
+              >
                 {props.type}
               </Typography>
             </Box>
@@ -31,7 +35,9 @@ function Project(props) {
             >
               {props.name}
             </Typography>
-            <Typography variant="p">{props.about}</Typography>
+            <Typography fontFamily="'Poppins', sans-serif" variant="p">
+              {props.about}
+            </Typography>
             <br></br>
             <a href={props.project} target="_blank">
               <button className="projectBtn1">Visit Project</button>
@@ -41,13 +47,15 @@ function Project(props) {
             </a>
           </Grid>
           <Grid item xs={12} md={6}>
-            <a href={props.project} target="_blank">
-              <img
-                className="projectImg"
-                style={{ width: "80%", borderRadius: "25px" }}
-                src={props.img}
-              />
-            </a>
+            <Box sx={{ display: "flex", width: "100%", height: "100%" }}>
+              <a href={props.project} target="_blank">
+                <img
+                  className="projectImg"
+                  style={{ width: "100%", borderRadius: "25px" }}
+                  src={props.img}
+                />
+              </a>
+            </Box>
           </Grid>
         </Grid>
       </Box>

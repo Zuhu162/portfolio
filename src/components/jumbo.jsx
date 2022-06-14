@@ -1,19 +1,20 @@
 import { Button, Card, Divider, Typography } from "@mui/material";
 import { Box, Container, width } from "@mui/system";
 import React from "react";
-import jumbo from "../assets/jumbo.svg";
+import jumbo from "../assets/jumbo.png";
 
 function Jumbo() {
   return (
     <div
       id="home"
       style={{
+        backgroundColor: "#111117",
         backgroundImage: `url(${jumbo})`,
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        height: "90vh",
+        height: "88vh",
         marginTop: "-70px",
         marginBottom: "100px",
       }}
@@ -30,18 +31,29 @@ function Jumbo() {
         }}
       >
         <Container>
-          <Typography fontFamily="'Exo', sans-serif" variant="h3">
-            Hi, I'm Zuhayer Adnan Siddique
-          </Typography>
-          <Typography variant="h4">MERN Stack Developer</Typography>
-          <Typography variant="p">Learning | Exploring | Creating </Typography>
+          <Box sx={{ marginBottom: "10px", color: "#01BEEA" }}>
+            <Typography fontFamily="'Exo', sans-serif" variant="p">
+              Hi, my name is
+            </Typography>
+          </Box>
+          <Box sx={{ color: "white" }}>
+            <Typography fontFamily="'Exo', sans-serif" variant="h3">
+              Zuhayer Adnan Siddique
+            </Typography>
+            <Typography fontFamily="'Poppins', sans-serif" variant="h4">
+              MERN Stack Developer
+            </Typography>
+            <Typography fontFamily="'Poppins', sans-serif" variant="p">
+              Learning | Exploring | Creating
+            </Typography>
+          </Box>
           <br></br>
           <a href="#projects">
             <button className="projectBtn1 ">View Projects</button>
           </a>
         </Container>
       </Box>
-      <Divider sx={{ mt: "20px" }}></Divider>
+      <Divider></Divider>
     </div>
   );
 }
