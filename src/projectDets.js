@@ -1,7 +1,8 @@
-import financier from "./assets/financier.jpg";
-import dunder from "./assets/dunder.jpg";
-import epic from "./assets/epic.jpg";
-import fresheries from "./assets/fresheries.jpg";
+import financier from "./assets/financier.png";
+import dunder from "./assets/dunder.png";
+import epic from "./assets/epic.png";
+import fresheries from "./assets/fresheries.png";
+import screenshot from "./assets/screenshot.png";
 
 const projects = [
   {
@@ -16,7 +17,7 @@ const projects = [
   {
     type: "FullStack",
     img: dunder,
-    name: "DunderMifflin_ Sys",
+    name: "DunderMifflin_Sys",
     about:
       "A project that combines my love for sitcoms and interest towards programming - an Office Management tool that is packed heavy with features and visualizers of day-to-day office chores",
     github: "https://github.com/Zuhu162/dund-sys-client",
@@ -30,6 +31,15 @@ const projects = [
       "A clone of the Epic Games desktop client using ReactJS and MUI. Personally a big fan of the simplistic yet modern look of the Epic Games Store. So, I naturally had to make a clone of it and test my frontend skills at the same time",
     github: "https://github.com/Zuhu162/epicgames-clone",
     project: "https://vigorous-montalcini-7eef92.netlify.app",
+  },
+  {
+    type: "FullStack",
+    img: screenshot,
+    name: "Screenshot Scraper (In Development)",
+    about:
+      "Powered by Puppeteer and Nodemailer - Schedule a program that can take screenshots of websites at regular intervals, which are directly mailed to your inbox",
+    github: "https://github.com/Zuhu162/screenshot_scraper",
+    project: "https://screenshot-scraper123.herokuapp.com/",
   },
   {
     type: "FrontEnd",

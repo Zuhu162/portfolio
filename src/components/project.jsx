@@ -25,7 +25,7 @@ function Project(props) {
               </Typography>
             </Box>
             <Typography
-              variant="h3"
+              variant="h4"
               fontFamily="'Exo', sans-serif"
               color="#00BEEA"
             >

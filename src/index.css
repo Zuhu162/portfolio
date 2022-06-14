@@ -26,6 +26,10 @@ code {
     monospace;
 }
 
+.glass {
+  fill: #00beea;
+}
+
 .jumbo {
   animation: jumbo 1s ease 0s 1 normal forwards;
 }

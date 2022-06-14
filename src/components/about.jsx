@@ -102,7 +102,7 @@ function About() {
               pursuing my Bachelor of Computer Science (Software Engineering)
               degree.
               <br />
-              Since my childhood I have been tinkering with Computers and all
+              Since my childhood I have been tinkering with computers and all
               sorts of technologies, that in some way or another ignited my
               passion towards this career.
             </Typography>
