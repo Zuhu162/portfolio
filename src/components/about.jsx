@@ -99,10 +99,6 @@ function About() {
                 sx={{ color: "black", backgroundColor: "#F9FBE6" }}
                 label="After Effects"
               />
-              <Chip
-                sx={{ color: "black", backgroundColor: "#F9FBE6" }}
-                label="Premiere Pro"
-              />
             </Stack>
             <Typography fontFamily="'Poppins', sans-serif" variant="h6" mt={3}>
               I'm a first year student at the University of Technology Malaysia,
