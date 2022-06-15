@@ -2,20 +2,27 @@ import { Button, Card, Divider, Typography } from "@mui/material";
 import { Box, Container, width } from "@mui/system";
 import React from "react";
 import jumbo from "../assets/jumbo.png";
+import Clouds from "./clouds";
 
 function Jumbo() {
   return (
-    <div
+    <Box
       id="home"
-      style={{
+      sx={{
         backgroundColor: "#111117",
         backgroundImage: `url(${jumbo})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: {
+          xs: "500%",
+          sm: "300%",
+          md: "200%",
+          lg: "contain",
+          xl: "contain",
+        },
+        backgroundPosition: "bottom",
         backgroundRepeat: "no-repeat",
         width: "100%",
-        height: "88vh",
-        marginTop: "-70px",
+        height: "90vh",
+        marginTop: "-80px",
         marginBottom: "100px",
       }}
     >
@@ -30,8 +37,11 @@ function Jumbo() {
           textAlign: "left",
         }}
       >
+        <Box>
+          <Clouds></Clouds>
+        </Box>
         <Container>
-          <Box sx={{ marginBottom: "10px", color: "#01BEEA" }}>
+          <Box sx={{ marginBottom: "10px", color: "#614085" }}>
             <Typography fontFamily="'Exo', sans-serif" variant="p">
               Hi, my name is
             </Typography>
@@ -54,7 +64,7 @@ function Jumbo() {
         </Container>
       </Box>
       <Divider></Divider>
-    </div>
+    </Box>
   );
 }
 

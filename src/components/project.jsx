@@ -31,7 +31,7 @@ function Project(props) {
             <Typography
               variant="h4"
               fontFamily="'Exo', sans-serif"
-              color="#00BEEA"
+              color="#614085"
             >
               {props.name}
             </Typography>

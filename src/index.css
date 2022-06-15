@@ -57,6 +57,7 @@ code {
 }
 
 .projectBtn1 {
+  z-index: 5;
   font-family: "Poppins", sans-serif;
   all: unset;
   transition: all 0.2s ease-in-out;
@@ -65,8 +66,8 @@ code {
   color: white;
   padding: 20px;
   border-radius: 10px;
-  background-color: #00beea;
-  border: 1px solid #00beea;
+  background-color: #614085;
+  border: 1px solid #614085;
   margin-right: 10px;
 }
 
@@ -76,11 +77,11 @@ code {
   transition: all 0.2s ease-in-out;
   margin-top: 30px;
   cursor: pointer;
-  color: #00beea;
+  color: #614085;
   padding: 20px;
   border-radius: 10px;
   background-color: #ffffff;
-  border: 1px solid #00beea;
+  border: 1px solid #614085;
 }
 
 .projectBtn1:hover {
@@ -142,4 +143,35 @@ code {
 .floaterIcon:hover {
   color: "#01BEEA";
   transition: all 0.2s ease-in-out;
+}
+
+.cloud {
+  z-index: 1;
+  position: absolute;
+  animation: cloud 10s ease 0s infinite normal forwards;
+}
+
+@keyframes cloud {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateX(-25px);
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(-10px);
+  }
+  60% {
+    animation-timing-function: ease-in;
+    transform: translateX(0px);
+  }
+  80% {
+    animation-timing-function: ease-in;
+    transform: translateX(-10px);
+  }
+  100% {
+    animation-timing-function: ease-in;
+    transform: translateX(-25px);
+  }
 }
