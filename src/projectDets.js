@@ -16,12 +16,12 @@ const projects = [
   },
   {
     type: "FullStack",
-    img: dunder,
-    name: "DunderMifflin_Sys",
+    img: screenshot,
+    name: "Screenshot Scraper",
     about:
-      "A project that combines my love for sitcoms and interest towards programming - an Office Management tool that is packed heavy with features and visualizers of day-to-day office chores",
-    github: "https://github.com/Zuhu162/dund-sys-client",
-    project: "https://eloquent-lamport-dbc1e6.netlify.app/",
+      "Powered by Puppeteer and Nodemailer - Schedule a program that can take screenshots of websites at regular intervals, which are directly mailed to your inbox",
+    github: "https://github.com/Zuhu162/screenshot_scraper",
+    project: "https://screenshot-scraper123.herokuapp.com/",
   },
   {
     type: "FrontEnd",
@@ -34,12 +34,12 @@ const projects = [
   },
   {
     type: "FullStack",
-    img: screenshot,
-    name: "Screenshot Scraper (In Development)",
+    img: dunder,
+    name: "DunderMifflin_Sys",
     about:
-      "Powered by Puppeteer and Nodemailer - Schedule a program that can take screenshots of websites at regular intervals, which are directly mailed to your inbox",
-    github: "https://github.com/Zuhu162/screenshot_scraper",
-    project: "https://screenshot-scraper123.herokuapp.com/",
+      "A project that combines my love for sitcoms and interest towards programming - an Office Management tool that is packed heavy with features and visualizers of day-to-day office chores",
+    github: "https://github.com/Zuhu162/dund-sys-client",
+    project: "https://eloquent-lamport-dbc1e6.netlify.app/",
   },
   {
     type: "FrontEnd",

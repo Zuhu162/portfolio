@@ -7,7 +7,7 @@ function Footer() {
       style={{
         width: "100%",
         minHeight: "400px",
-        backgroundColor: "#1B242F",
+        backgroundColor: "#111117",
         marginTop: "100px",
       }}
     >
