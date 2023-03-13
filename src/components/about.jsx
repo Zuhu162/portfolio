@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import me from "../assets/me.jpg";
+import me from "../assets/m2.jpg";
 
 function About() {
   return (
@@ -101,9 +101,9 @@ function About() {
               />
             </Stack>
             <Typography fontFamily="'Poppins', sans-serif" variant="h6" mt={3}>
-              I'm a first year student at the University of Technology Malaysia,
-              pursuing my Bachelor of Computer Science (Software Engineering)
-              degree.
+              I'm a second year student at the University of Technology
+              Malaysia, pursuing my Bachelor of Computer Science (Software
+              Engineering) degree.
               <br />
               Since my childhood I have been tinkering with computers and all
               sorts of technologies, that in some way or another ignited my
