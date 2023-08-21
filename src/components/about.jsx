@@ -110,7 +110,7 @@ function About() {
               passion towards this career.
             </Typography>
             <a
-              href="https://drive.google.com/file/d/1CgunVzhnEZick19hSAcBZRxAQwSgR_CZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BCmn3EO7p63H8-6Yno4FQBbBa2gC_bf2/view?usp=sharing"
               target="_blank"
             >
               <button className="projectBtn2">Download Résumé</button>
