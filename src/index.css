@@ -71,6 +71,22 @@ code {
   margin-right: 10px;
 }
 
+.projectBtn1Disabled {
+  z-index: 5;
+  font-family: "Poppins", sans-serif;
+  all: unset;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #3c3c3c;
+  border: 1px solid #988aa8;
+  margin-right: 10px;
+  cursor: default;
+}
+
 .projectBtn2 {
   font-family: "Poppins", sans-serif;
   all: unset;

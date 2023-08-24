@@ -39,9 +39,14 @@ function Project(props) {
               {props.about}
             </Typography>
             <br></br>
-            <a href={props.project} target="_blank">
-              <button className="projectBtn1">Visit Project</button>
-            </a>
+            {props.project ? (
+              <a href={props.project} target="_blank">
+                <button className={props.btnType}>Visit Project</button>
+              </a>
+            ) : (
+              <button className={props.btnType}>Visit Project</button>
+            )}
+
             <a href={props.git} target="_blank">
               <button className="projectBtn2">View Github</button>
             </a>

@@ -17,6 +17,11 @@ function Projects() {
         <Typography variant="h4" fontFamily="'Exo', sans-serif">
           Featured Projects
         </Typography>
+        <Typography variant="subtitle" fontFamily="Poppins">
+          Some projects cannot be viewed due to heroku shutting down free
+          hosting services. Will be fixed ASAP. Until then feel free to visit
+          the GitHub repos.
+        </Typography>
         {projects.map((p) => (
           <Project
             type={p.type}
@@ -25,6 +30,7 @@ function Projects() {
             about={p.about}
             git={p.github}
             project={p.project}
+            btnType={p.btn}
           ></Project>
         ))}
       </Box>
